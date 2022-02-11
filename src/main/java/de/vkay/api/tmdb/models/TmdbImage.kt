@@ -56,6 +56,6 @@ data class TmdbImage internal constructor(
     }
 
     companion object {
-        fun get(path: String?, quality: Quality) = "https://image.tmdb.org/t/p/$quality$path"
+        fun get(path: String?, quality: Quality) = "https://blooming-refuge-54951.herokuapp.com/t/p/$quality$path"
     }
 }
